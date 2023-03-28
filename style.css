@@ -1,0 +1,15 @@
+.nav-link{
+    color: white;
+}
+
+.navbar{
+    background-color: rgb(233, 124, 0);
+}
+
+.contacto{
+    border-left: 2px solid #ffffff;
+}
+
+.carousel-indicators [data-bs-target]{
+    background-color: rgb(214, 139, 0);
+}
