@@ -1,12 +1,23 @@
+/*Contenido del navbar alineado a la derecha*/
+.opciones{
+    margin-left: auto;
+}
+
 .nav-link{
     color: white;
     font-family: 'Roboto', sans-serif;
+}
+
+/*elementos acomodados*/
+.nav-link.editnav{
+    margin-right: 150px;
 }
 
 .nav-link active{
     background-color: #ffffff;
     color: black;
 }
+
 
 .navbar{
     background-color: rgb(233, 124, 0);
