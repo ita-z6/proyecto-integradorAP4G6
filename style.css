@@ -1,15 +1,50 @@
 .nav-link{
     color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-link active{
+    background-color: #ffffff;
+    color: black;
 }
 
 .navbar{
     background-color: rgb(233, 124, 0);
 }
-
-.contacto{
-    border-left: 2px solid #ffffff;
+/*Separador de la seccion de "Contactenos". Solo visible en resoluciones de escritorio*/
+@media only screen and (min-width: 992px){
+    .contacto{
+        border-left: 2px solid #ffffff;
+    }
+}
+/*Configuracion de menu "Nosotros"*/
+.dropdown-menu{
+    --bs-dropdown-bg:rgb(68, 68, 68);
+    --bs-dropdown-link-color: #ffffff;
+    --bs-dropdown-link-hover-bg: rgb(68, 68, 68);
+    --bs-dropdown-link-hover-color: orange;
+}
+.dropdown-item{
+    padding-left: 20px;
+    padding-right: auto;
+}
+.dropdown-item:hover{
+    text-decoration: underline;
 }
 
+/*Configuracion de Carousel de imagenes*/
 .carousel-indicators [data-bs-target]{
     background-color: rgb(214, 139, 0);
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: var(--bs-navbar-active-color);
+    background-color: white;
+    border-radius: 20px;
+}
+
+#carouselExampleIndicators{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
 }
