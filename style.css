@@ -18,6 +18,11 @@
     color: black;
 }
 
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: var(--bs-navbar-active-color);
+    background-color: white;
+    border-radius: 20px;
+}
 
 .navbar{
     background-color: rgb(233, 124, 0);
@@ -46,12 +51,6 @@
 /*Configuracion de Carousel de imagenes*/
 .carousel-indicators [data-bs-target]{
     background-color: rgb(214, 139, 0);
-}
-
-.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
-    color: var(--bs-navbar-active-color);
-    background-color: white;
-    border-radius: 20px;
 }
 
 #carouselExampleIndicators{
