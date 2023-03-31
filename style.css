@@ -11,6 +11,7 @@
 /*elementos acomodados*/
 .nav-link.editnav{
     margin-right: 150px;
+    border-radius: 15px;
 }
 
 .nav-link.active{
@@ -18,10 +19,14 @@
     color: black;
 }
 
+.nav-item{
+    border-radius: 15px;
+}
+
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
     color: var(--bs-navbar-active-color);
     background-color: white;
-    border-radius: 20px;
+    border-radius: 15px;
 }
 
 .navbar{
@@ -31,6 +36,7 @@
 @media only screen and (min-width: 992px){
     .contacto{
         border-left: 2px solid #ffffff;
+        border-radius: 0px;
     }
 }
 /*Configuracion de menu "Nosotros"*/
@@ -46,6 +52,15 @@
 }
 .dropdown-item:hover{
     text-decoration: underline;
+}
+/*Configuracion de boton de busqueda*/
+.btn-outline-success{
+    --bs-btn-color: orange;
+    --bs-btn-border-color: orange;
+    --bs-btn-hover-border-color: orange;
+    --bs-btn-hover-bg: orange;
+    --bs-btn-active-bg: rgb(202, 131, 0);
+    --bs-btn-active-border-color: orange;
 }
 
 /*Configuracion de Carousel de imagenes*/
