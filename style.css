@@ -13,7 +13,7 @@
     margin-right: 150px;
 }
 
-.nav-link active{
+.nav-link.active{
     background-color: #ffffff;
     color: black;
 }
@@ -57,4 +57,39 @@
     width: 60%;
     margin-left: auto;
     margin-right: auto;
+}
+
+/* Pagina de contactenos */
+/* Fondo de la pagina */
+
+.ventanaContactenos{
+  
+    background-image:url("./media/fondosImg/fondo_2.jpg");
+    background-color: rgb(169, 169, 169);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: 110%;
+    background-position: 0 -210px ;
+    
+}
+.form_contactenos{
+    max-width: 30%;
+    margin-left: 60px;
+    
+}
+
+.form_contactenos>p{
+    color: white;
+    font-size: 2.2rem;
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.color-input{
+    background-color: rgb(225, 223, 223);
+}
+.color-button{
+    background-color: rgb(233, 124, 0);
+    margin-bottom: 20px;
 }
