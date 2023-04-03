@@ -63,6 +63,15 @@
     --bs-btn-active-border-color: orange;
 }
 
+/*Ajustes de Footer*/
+.telefono{
+    font-weight: bolder;
+}
+.piepagina{
+    font-family: 'Roboto', sans-serif;
+}
+/*fin de ajustes de Footer*/
+
 /*Configuracion de Carousel de imagenes*/
 .carousel-indicators [data-bs-target]{
     background-color: rgb(214, 139, 0);
