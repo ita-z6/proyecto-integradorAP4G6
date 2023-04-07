@@ -129,6 +129,14 @@
     margin-right: 5px;
     padding-bottom: 3px;
 }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
  /* Carte de mensaje enviado */
  #mensajeAgradecimiento {
   position: fixed;
