@@ -103,10 +103,29 @@ h3{
     background-color: rgb(214, 139, 0);
 }
 
+
 #carouselExampleIndicators{
     width: 60%;
     margin-left: auto;
     margin-right: auto;
+    padding-top:50px;
+}
+
+.priVR{
+    color:black;
+    text-shadow: 1px 1px 0px #ffffff;
+}
+
+.secVR{
+    color:rgb(255, 123, 0);
+    text-shadow: 1px 1px 0px #000;
+}
+.textVR{
+    position:absolute;
+    top:50%;
+    left:0;
+    transform: translateY(-50%);
+    width: 450px;
 }
 
 /* Pagina de contactenos */
