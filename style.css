@@ -95,6 +95,10 @@ h3{
 }
 .piepagina{
     font-family: 'Roboto', sans-serif;
+    width:100%;
+    max-width: 100%;
+    background:#fff;
+    margin:0 auto;
 }
 /*fin de ajustes de Footer*/
 
