@@ -54,7 +54,7 @@
     text-decoration: underline;
 }
 .informacion-nosotros{    
-    background-image:url("./media/fondosImg/pantala_2.jpg") ;
+    background-image:url("./media/netbook 1.jpg") ;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -70,7 +70,7 @@
     margin-top: 10px;
     padding-bottom: 50px;
 }
-h3{
+h1{
     width: 680px;
     height: 10px;
     padding-left: 120px;
@@ -78,6 +78,13 @@ h3{
     color: white;
     padding-top: 25px;
 }
+
+
+.texto-nosotros:hover{
+    border-color:#c78c19;
+}
+
+
 
 /*Configuracion de boton de busqueda*/
 .btn-outline-success{
