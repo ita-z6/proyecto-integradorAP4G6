@@ -7,10 +7,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Winkfel</title>
+    <title>Winkfel:Productos</title>
 </head>
 <body>
-  <!--Barra de navegacion-->
+    <!--Barra de navegacion-->
   <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
       <a class="navbar-brand ms-5" href="/index.html">
@@ -22,10 +22,10 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav opciones">
           <li class="nav-item">
-            <a class="nav-link active editnav" aria-current="page" href="index.html">Home</a>
+            <a class="nav-link editnav" aria-current="page" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link editnav" href="productos.html">Productos</a>
+            <a class="nav-link active editnav" href="productos.html">Productos</a>
           </li>
           <!--Menu desplegable Nosotros-->
           <li class="nav-item dropdown">
@@ -77,45 +77,38 @@
       </div>
     </div>
   </nav>
-  <!--Fin de barra de navegacion-->
-  
-  <!--Presentacion de la empresa formato carrusel-->
-  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-    </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active" data-bs-interval="8000">
-        <video id="videoC" src="media/inicio.mp4" type="video/mp4" autoplay class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item" data-bs-interval="4000">
-        <img src="./media/fondosImg/carrusel_2.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block textVR">
-          <h5 class="priVR">LA ENTRADA AL MUNDO DE LA</h5>
-          <h2 class="secVR">REALIDAD VIRTUAL</h2>
-        </div>
-      </div>
-      <div class="carousel-item" data-bs-interval="3000">
-        <img src="./media/fondosImg/carrusel_4.jpg" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item" data-bs-interval="3000">
-        <img src="./media/fondosImg/carrusel_3.jpg" class="d-block w-100" alt="...">
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
+    <!--Fin de barra de navegacion-->
 
-<!--Footer-->
+    <!--Contenido-->
+    <div class="row">
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="..." alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="..." alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="..." alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Footer-->
   <div class="container piepagina">
     <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
       <div class="col mb-3">
@@ -174,14 +167,8 @@
         </ul>
       </div>
     </footer>
-  </div>
     <!--Fin de Footer-->
-  
-
-
-<!-- JQuery -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-  <!-- JS -->
-  <script src="main.js"></script>
+  </div>
+    
 </body>
 </html>
