@@ -317,3 +317,33 @@ input::-webkit-inner-spin-button {
 }
 
  /*Fin de Cards-------------------------------------------------------------------*/ 
+
+ /* Formulario reclamos */
+
+ .tituloReclamo{
+    color:rgb(233, 124, 0);
+    margin-top: 50px;
+    margin-bottom: 25px;
+ }
+ .reclamos{
+    border: solid 2px rgb(233, 124, 0);
+    padding: 1%;
+    margin-bottom: 10px;
+    width: 70%;
+ }
+ .importante{
+    color: rgb(233, 124, 0);
+ }
+ .iconReclamo{
+    width:25px;
+    height:25px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+ }
+ /* .reclamos>p{
+    word-wrap: break-word;
+ } */
+ .parrafoReclamo{
+    margin-left: 35px;
+    
+ }
