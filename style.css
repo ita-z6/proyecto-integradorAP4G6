@@ -75,7 +75,7 @@
     margin-left: 15px;
 }
 
-h1{
+.tituloW{
     width: 680px;
     height: 10px;
     padding-left: 120px;
@@ -260,7 +260,7 @@ input::-webkit-inner-spin-button {
 } 
 
 
- /* Cards */ 
+ /* Cards ---------------------------------------------------------------------*/ 
  .background{
     background-position: center;
     background-repeat: no-repeat;
@@ -268,7 +268,7 @@ input::-webkit-inner-spin-button {
     background-size: auto;
 }
 
-h1 {
+.tituNos {
     color: rgb(201,83,16);
     font-family:'Roboto', sans-serif;
     font-size: 36px;
@@ -296,7 +296,7 @@ h1 {
 }
 
 /*Info*/
-h2{
+.nosCard{
     color: rgb(77,77,77);
     font-family:'Roboto', sans-serif;
     font-size: 16px;
@@ -304,7 +304,7 @@ h2{
     margin-top: 30px;
 }
 
-p1{
+.textNos{
     margin-top: 18px;
     margin-left: 35px;
     width: 70%;
@@ -316,4 +316,4 @@ p1{
     display: block;
 }
 
- /*Fin de Cards */ 
+ /*Fin de Cards-------------------------------------------------------------------*/ 
