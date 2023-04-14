@@ -49,12 +49,13 @@ function verProductoDetalle(resultado){
     const modalTitle = document.querySelector('.modal .modal-title')
     const modalBody = document.querySelector('.modal .modal-body')
 
-    modalTitle.textContent = title
+    modalTitle.textContent = title;
     modalBody.innerHTML = `
-    <img class="img-fluid" src="${image}"
-    <p class="card-text">${description}</p>
+    <img class="img-fluid" src="${image}">
+    <p class="text-center">${description} </p>
     <p class="text-center text-danger">Precio: $${price}</p>
-     `
+    `
+    
 
 
     modal.show()
