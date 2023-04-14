@@ -215,3 +215,62 @@ input::-webkit-inner-spin-button {
     margin-top: 20px;
     margin-bottom: 20px;
 } 
+
+
+ /* Cards */ 
+ .background{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size: auto;
+}
+
+h1 {
+    color: rgb(201,83,16);
+    font-family:'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 430,073px;
+}
+
+/*Contenedor de cards*/
+.card{
+    position: relative;
+    margin-top: 45px;
+    padding-left: auto;
+}  
+
+.circle-img{
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+/*Info*/
+h2{
+    color: rgb(77,77,77);
+    font-family:'Roboto', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+p1{
+    margin-top: 18px;
+    margin-left: 35px;
+    width: 70%;
+    text-align: center;
+    color: rgb(77,77,77);
+    font-family:'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    display: block;
+}
+
+ /*Fin de Cards */ 
