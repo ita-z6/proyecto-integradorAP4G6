@@ -109,7 +109,7 @@ h1{
 }
 /*fin de ajustes de Footer*/
 
-/*Configuracion de Carousel de imagenes*/
+/*Configuracion de Carousel de imagenes-----------------------------------------*/
 .carousel-indicators [data-bs-target]{
     background-color: rgb(214, 139, 0);
 }
@@ -122,14 +122,16 @@ h1{
     padding-top:50px;
 }
 
+/*texto de carrusel*/
 .priVR{
     color:black;
     text-shadow: 1px 1px 0px #ffffff;
+    font-weight: bolder;
 }
-
 .secVR{
-    color:rgb(255, 123, 0);
-    text-shadow: 1px 1px 0px #000;
+    color:rgb(223, 145, 0);
+    text-shadow: 1px 1px 0px #ffffff;
+    font-weight: bolder;
 }
 .textVR{
     position:absolute;
@@ -137,7 +139,48 @@ h1{
     left:0;
     transform: translateY(-50%);
     width: 450px;
+    text-align: left;
+    margin-left: 100px;
 }
+
+.textS23{
+    position:absolute;
+    top:50%;
+    left:0;
+    transform:translateY(-30%);
+    width:450px;
+}
+.priS23 , .secS23{
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 0;
+}
+.priS23{
+    padding-bottom: 0;
+}
+
+.textAcc{
+    position:absolute;
+    top:50%;
+    left:0;
+    transform:translateY(-60%);
+    width:450px;
+    text-align:left;
+    margin-left: 100px;
+}
+.secAcc{
+    font-family: 'Nunito', sans-serif;
+    font-weight: bolder;
+}
+.priAcc{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+}
+
+.carousel-control-prev-icon , .carousel-control-next-icon{
+    background-color: #5c5c5c;
+    border-radius: 15px;
+}
+/*Fin de Ajustes de Carrusel------------------------------------------------*/
 
 /* Pagina de contactenos */
 /* Fondo de la pagina */
