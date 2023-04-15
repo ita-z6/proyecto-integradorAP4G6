@@ -332,7 +332,7 @@ input::-webkit-inner-spin-button {
     width: 70%;
  }
  .importante{
-    color: rgb(233, 124, 0);
+    color: rgb(233, 124, 0);;
  }
  .iconReclamo{
     width:25px;
@@ -345,5 +345,72 @@ input::-webkit-inner-spin-button {
  } */
  .parrafoReclamo{
     margin-left: 35px;
-    
+ }
+
+ /* Abanico */
+ .abanicoTitulo{
+    margin-top: 20px;
+    border-top:solid 1px gray;
+    padding-top: 50px;
+    color: orange;
+    text-align: center;
+    text-shadow: 1px 1px 0px #000;
+    }
+    .abanicoSubT{
+        text-align: center;
+        color: rgb(200, 167, 106);
+        margin-bottom: 80px;
+    }
+ .masVendidos{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+ }
+
+ .cardVendido{
+    position: relative;
+    width: 300px;
+    height: 350px;
+    margin:20px;
+ }
+
+ .cardVendido .cara{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .5s;
+ }
+ .cardVendido .frente{
+    transform: perspective(600px) rotateY(0deg);
+    box-shadow: 0 5px 10px #000;
+ }
+ .cardVendido .frente img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+ }
+
+ .cardVendido .atras{
+    transform: perspective(600px) rotateY(180deg);
+    background: rgb(228, 127, 19);
+    padding: 15px;
+    color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 0 5px 10px #000;
+ }
+ .cardVendido:hover .frente{
+    transform: perspective(600px) rotateY(180deg);
+ }
+ .cardVendido:hover .atras{
+    transform: perspective(600px) rotateY(360deg);
  }
