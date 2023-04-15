@@ -33,5 +33,3 @@ form.addEventListener('submit', function(event) {
 document.addEventListener('click', function() {
   mensajeAgradecimiento.style.display = 'none';
 });
-
-  
