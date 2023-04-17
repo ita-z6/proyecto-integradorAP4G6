@@ -26,7 +26,7 @@ function productosElectronicos(productos){
           <h5 class="card-title">${title}</h5>
           <p class="card-subtitle mb-2 text-muted">Precio: $${price}</p>
           <p class="card-subtitle mb-2">Categoria: ${category}</p>
-          <a href="#" class="btn btn-warning">Comprar</a>
+          <button onclick="agregarProducto(${id})" class="btn btn-warning">Comprar</button>
         </div>
       </div> `
      });
@@ -60,3 +60,4 @@ function verProductoDetalle(resultado){
 
     modal.show()
 }
+

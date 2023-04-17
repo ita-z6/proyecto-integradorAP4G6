@@ -10,7 +10,7 @@ $('#carouselExampleIndicators').on('slide.bs.carousel', function (event) {
 const form = document.querySelector('form');
 const mensajeAgradecimiento = document.getElementById('mensajeAgradecimiento');
 
-form.addEventListener('submit', function(event) {
+form.addEventListener('submit',function(event) {
   event.preventDefault();
   const nombre = document.getElementById('nombre').value.trim();
   const telefono = document.getElementById('telefono').value.trim();
@@ -33,3 +33,6 @@ form.addEventListener('submit', function(event) {
 document.addEventListener('click', function() {
   mensajeAgradecimiento.style.display = 'none';
 });
+
+// Armando un array para hacer tarjetas dinamicas
+

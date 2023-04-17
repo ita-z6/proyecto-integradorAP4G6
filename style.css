@@ -448,3 +448,33 @@ h6{
     font-family: 'Roboto';
     font-size: 12px;
  }
+
+
+ /* Carrito */
+ .modal-contenedor{
+    display:flex;
+    align-items: center;
+    gap:2rem;
+    }
+ .img-carrito{
+    width:200px;
+    padding:20px;
+}
+.modal-content{
+    background-color: #E3D8D6;
+}
+.parrafo{
+    font-weight: 700;
+    font-style: italic;
+    color: orange;
+    }
+    #precioTotal{
+        margin:0;
+        padding:0;
+    }
+    a{
+        text-decoration: none;
+    }
+    .boton{
+        opacity:0;
+    }
